@@ -1,0 +1,220 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.menu-container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+body{
+    background-color: #222;
+}
+
+.header{
+    background: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+}
+
+.header-h1{
+    font-size: 100px;
+}
+
+.header-p{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.header-a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 20px 50px;
+    background: linear-gradient(45deg, #65DAFF, #70FFCB);
+    border-radius: 10px;
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(51, 51, 51);
+    top: 0;
+    z-index: 1;
+    line-height: 55px;
+    box-shadow: 0 5px 15px black;
+}
+
+.menu-link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.menu-links{
+    float: right;
+}
+
+.menu-main-link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+.about-container{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-card{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 2%;
+}
+
+.about-card img{
+    height: 120px;
+}
+
+.about-card p{
+    color: aqua;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.games-container{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 30px black;
+}
+
+.title{
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+.games-card{
+    height: 300px;
+}
+
+.games-info{
+    width: 49%;
+    text-align: left;
+    color: white;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+
+}
+
+.games-info h2{
+    color: rgb(255, 255, 181);
+}
+
+.games-photo{
+    background: url(img/csgo.jpg) center/cover no-repeat;
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+}
+
+.games{
+    padding-top: 50px;
+}
+
+.gp1{
+    background: url(img/dota2.jpg) center/cover no-repeat;
+}
+
+.gp2{
+    background: url(img/apex.jpg) center/cover no-repeat;
+}
+
+.games-info hr{
+    background-color: beige;
+    width: 30%;
+    height: 4px;
+    margin: 20px 0;
+}
+
+.tournier-container{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.discord-container{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 30px black;
+}
+
+.discord-container hr{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.discord-blue{
+    width: 90%;
+    margin: auto;
+    height: 130px;
+    background-color: #65DAFF;
+    position: relative;
+}
+
+.discord-blue h3{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.discord-blue a{
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+    padding: 15px 40px;
+}
